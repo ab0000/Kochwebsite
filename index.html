@@ -45,6 +45,47 @@
 					</div>
 
 
+            <!-- Suchfilter  -->
+<div class="suchfilter">
+	<div id="suchfilter" class="suchfilter">
+			<nav id="suchen">
+				<action="newsletter.php" method ="POST">
+				<label for="recipe"> Rezeptsuche </label>
+				<input type="text" id="recipe" placeholder="Suche z.B. nach 'Nudeln' ">
+			</nav>
+	</div>
+
+	<div class="action">
+		<input type="submit" value="Suchen" class="button alt" />
+	</div>
+<ul>
+<li>
+		<fieldset>
+		<label for="Filter" > Vegetarisch </label>
+		<input id="vegetarisch" type="checkbox" value="vegetarisch">
+	</fieldset>
+</li>
+<li>
+	<fieldset>
+		<label for="Filter" > Vegan </label>
+		<input id="vegan" type="checkbox" value="vegan">
+	</fieldset>
+</li>
+<li>
+		<fieldset>
+		<label for="Filter" > Glutenfrei </label>
+		<input id="glutenfrei" type="checkbox" value="glutenfrei">
+	</fieldset>
+</li>
+<li>
+	<fieldset>
+		<label for="Filter" > Ich esse alles </label>
+		<input id="alles" type="checkbox" value="alles">
+	</fieldset>
+</li>
+
+	</ul>
+</div>
 
 				<!-- Extra -->
 					<div id="extra">
@@ -54,17 +95,18 @@
 									<div class="box">
 										<title> Vorspeise</title>
 
-										<a href="#" class="button">Read More</a> </div>
+										<a href="#" class="button">Vorspeisen
+										</a> </div>
 								</section>
 								<section class="4u"> <a href="#" class="image featured"><img src="images/pic02.jpg" alt=""></a>
 									<div class="box">
 										<p>Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum  wisi maecenas ligula.</p>
-										<a href="#" class="button">Read More</a> </div>
+										<a href="#" class="button">Hauptspeisen</a> </div>
 								</section>
 								<section class="4u"> <a href="#" class="image featured"><img src="images/pic03.jpg" alt=""></a>
 									<div class="box">
 										<p>Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum  wisi maecenas ligula.</p>
-										<a href="#" class="button">Read More</a> </div>
+										<a href="#" class="button">Desserts</a> </div>
 								</section>
 							</div>
 
@@ -115,8 +157,8 @@
 			<div class="container">
 				<section>
 					<header class="major">
-						<h2>Mauris vulputate dolor</h2>
-						<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+						<h2>Deine Rezeptvorschläge</h2>
+						<span class="byline"> Schnell und lecker? Teile deine Lieblingsrezepte mit uns</span>
 					</header>
 					<form method="post" action="#">
 						<div class="row half">
@@ -131,14 +173,14 @@
 						</div>
 						<div class="row half">
 							<div class="12u">
-								<textarea name="message" id="message" placeholder="Message"></textarea>
+								<textarea name="message" id="message" placeholder="Rezept"></textarea>
 							</div>
 						</div>
 						<div class="row half">
 							<div class="12u">
 								<ul class="actions">
 									<li>
-										<input type="submit" value="Send Message" class="button alt" />
+										<input type="submit" value="Rezept abschicken" class="button alt" />
 									</li>
 								</ul>
 							</div>
