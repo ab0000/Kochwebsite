@@ -10,7 +10,7 @@
 /* Basic */
 
 	body {
-		background: #0f1116;
+		background: #fff;
 	}
 
 
@@ -639,10 +639,12 @@
 /* Box */
 
 	.box {
-		padding: 3em 6em;
+
 		background: #696969 ;
 		text-align: center;
 		border-radius: 0px 0px 6px 6px;
+		padding-top: 2em;
+		padding-bottom: 2em;
 
 		margin-bottom: 500px;
 
